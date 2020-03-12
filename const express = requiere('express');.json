@@ -1,0 +1,8 @@
+const express = requiere('express');
+const mongoose = requiere('mongoose');
+//significa que esta no projeto por causa do ponto
+const Produto = requiere('./ProdutoSchema');
+
+const server = express();
+
+const MOngo_URL ="mongodb
